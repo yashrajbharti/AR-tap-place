@@ -8,14 +8,21 @@ const newElement = document.createElement('a-entity')
 // The raycaster gives a location of the touch in the scene
  const touchPoint = event.detail.intersection.point
  console.log(touchPoint);
- newElement.setAttribute('position', touchPoint)
- newElement.setAttribute('visible', 'false')
- newElement.setAttribute('scale', '0.1 0.1 0.1')
- newElement.setAttribute('rotate', '45 0 30')
- newElement.setAttribute('gltf-model', '#ring')
- snaptarget.appendChild(newElement)
- newElement.setAttribute('position', '0 -0.1 0.5')
-//  newElement.setAttribute('offset', '-455 -401 2975')
+   newElement.setAttribute('position', touchPoint)
+   newElement.setAttribute('visible', 'false')
+   newElement.setAttribute('scale', '1 1 1')
+   newElement.setAttribute('rotate', '0 0 0')
+   newElement.setAttribute('geometry', {
+     primitive: 'ring',
+    radiusInner: 0.1,
+    radiusOuter: 1
+  });
+  newElement.setAttribute('material', 'color', 'red');
+   newElement.setAttribute('material', 'side', 'double');
+
+    snaptarget.appendChild(newElement)
+   newElement.setAttribute('position', '0.14 0.08 0')
+  //  newElement.setAttribute('offset', '-455 -401 2975')
 
  newElement.addEventListener('model-loaded', () => {
  newElement.setAttribute('visible', 'true')
