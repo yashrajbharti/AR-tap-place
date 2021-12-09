@@ -20,10 +20,10 @@ const newElement = document.createElement('a-entity')
    newElement.setAttribute('material', 'color', 'red');
    newElement.setAttribute('material', 'side', 'double');
 
-    snaptarget.appendChild(newElement)
-    touchPoint.x  /= 1000;
-    touchPoint.y  /= 1000;
-    touchPoint.z  /= 10000;
+    place.appendChild(newElement)
+    // touchPoint.x  /= 1000;
+    // touchPoint.y  /= 1000;
+    // touchPoint.z  /= 10000;
    newElement.setAttribute('position', touchPoint)
 
 
