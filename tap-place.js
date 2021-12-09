@@ -1,6 +1,6 @@
 const sceneEl = document.querySelector('a-scene');
 const place = document.getElementById('place')
-faq.addEventListener('click', (event) => {
+place.addEventListener('click', (event) => {
 
 console.log("snap target clicked");
 // Create new entity for the new object
