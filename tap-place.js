@@ -13,7 +13,7 @@ const newElement = document.createElement('a-entity')
  newElement.setAttribute('scale', '0.01 0.01 0.01')
  newElement.setAttribute('rotate', '0 0 90')
  newElement.setAttribute('gltf-model', '#ring')
- this.el.snaptarget.appendChild(newElement)
+ snaptarget.appendChild(newElement)
  newElement.setAttribute('position', '0 -0.3 0')
 //  newElement.setAttribute('offset', '-455 -401 2975')
 
