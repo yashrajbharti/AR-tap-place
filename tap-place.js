@@ -9,7 +9,7 @@ const newElement = document.createElement('a-entity')
  const touchPoint = event.detail.intersection.point
  console.log(touchPoint);
    newElement.setAttribute('position', touchPoint)
-   newElement.setAttribute('visible', 'false')
+   newElement.setAttribute('visible', 'true')
    newElement.setAttribute('scale', '0.03 0.03 0.03')
    newElement.setAttribute('rotate', '0 0 0')
    newElement.setAttribute('geometry', {
@@ -21,7 +21,7 @@ const newElement = document.createElement('a-entity')
    newElement.setAttribute('material', 'side', 'double');
 
     snaptarget.appendChild(newElement)
-   newElement.setAttribute('position', touchPoint)
+   newElement.setAttribute('position', '0.14 0.06 0')
   //  newElement.setAttribute('offset', '-455 -401 2975')
 
  newElement.addEventListener('model-loaded', () => {
