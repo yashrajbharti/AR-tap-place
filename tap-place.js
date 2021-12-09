@@ -10,7 +10,7 @@ const newElement = document.createElement('a-entity')
  console.log(touchPoint);
  newElement.setAttribute('position', touchPoint)
  newElement.setAttribute('visible', 'false')
- newElement.setAttribute('scale', '0.01 0.01 0.01')
+ newElement.setAttribute('scale', '1 1 1')
  newElement.setAttribute('rotate', '0 0 0')
  newElement.setAttribute('gltf-model', '#ring')
  snaptarget.appendChild(newElement)
