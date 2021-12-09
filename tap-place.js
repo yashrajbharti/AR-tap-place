@@ -10,10 +10,17 @@ const newElement = document.createElement('a-entity')
  console.log(touchPoint);
  newElement.setAttribute('position', touchPoint)
  newElement.setAttribute('visible', 'false')
- newElement.setAttribute('scale', '0.01 0.01 0.01')
- newElement.setAttribute('rotate', '0 0 90')
- newElement.setAttribute('gltf-model', '#ring')
- snaptarget.appendChild(newElement)
+ newElement.setAttribute('scale', '1 1 1')
+ newElement.setAttribute('rotate', '0 0 0')
+ newElement.setAttribute('geometry', {
+   primitive: 'ring',
+   radiusInner: 0.9,
+   radiusOuter: 1
+ });
+ newElement.setAttribute('material', 'color', 'red');
+ newElement.setAttribute('material', 'side', 'double');
+
+  snaptarget.appendChild(newElement)
  newElement.setAttribute('position', '0 -0.3 0')
 //  newElement.setAttribute('offset', '-455 -401 2975')
 
