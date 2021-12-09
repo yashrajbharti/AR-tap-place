@@ -1,202 +1,79 @@
 {
   "accessors": [
     {
-      "bufferView": 2,
+      "bufferView": 0,
       "componentType": 5126,
-      "count": 144,
+      "count": 10003,
       "max": [
-        0.94999998807907104,
-        0.029789907857775688,
-        0.94999998807907104
+        10.107075691223145,
+        0.7751259803771973,
+        10.117551803588867
       ],
       "min": [
-        -0.94999998807907104,
-        0.029789907857775688,
-        -0.94999998807907104
+        -10.106924057006836,
+        -0.7751200199127197,
+        -10.118441581726074
       ],
       "type": "VEC3"
     },
     {
-      "bufferView": 2,
-      "byteOffset": 1728,
+      "bufferView": 0,
+      "byteOffset": 120036,
       "componentType": 5126,
-      "count": 144,
+      "count": 10003,
       "max": [
-        0,
-        1,
-        -0
+        0.9999990463256836,
+        0.9997768402099609,
+        0.9999990463256836
       ],
       "min": [
-        0,
-        1,
-        -0
+        -0.9999990463256836,
+        -0.9997768402099609,
+        -0.9999990463256836
       ],
       "type": "VEC3"
-    },
-    {
-      "bufferView": 3,
-      "componentType": 5126,
-      "count": 144,
-      "max": [
-        0,
-        0,
-        -1,
-        1
-      ],
-      "min": [
-        0,
-        0,
-        -1,
-        1
-      ],
-      "type": "VEC4"
     },
     {
       "bufferView": 1,
       "componentType": 5126,
-      "count": 144,
+      "count": 10003,
       "max": [
-        0.98560023307800293,
-        0.98560023307800293
+        0.0,
+        0.6980392336845398,
+        1.0,
+        1.0
       ],
       "min": [
-        0.014399779960513115,
-        0.01439976692199707
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 0,
-      "componentType": 5125,
-      "count": 432,
-      "max": [
-        143
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 3456,
-      "componentType": 5126,
-      "count": 144,
-      "max": [
-        1,
-        0,
-        1
-      ],
-      "min": [
-        -1,
-        0,
-        -1
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 5184,
-      "componentType": 5126,
-      "count": 144,
-      "max": [
-        0,
-        1,
-        -0
-      ],
-      "min": [
-        0,
-        1,
-        -0
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 3,
-      "byteOffset": 2304,
-      "componentType": 5126,
-      "count": 144,
-      "max": [
-        0,
-        0,
-        -1,
-        1
-      ],
-      "min": [
-        0,
-        0,
-        -1,
-        1
+        0.0,
+        0.6980392336845398,
+        1.0,
+        1.0
       ],
       "type": "VEC4"
-    },
-    {
-      "bufferView": 1,
-      "byteOffset": 1152,
-      "componentType": 5126,
-      "count": 144,
-      "max": [
-        0.98560023307800293,
-        0.98560023307800293
-      ],
-      "min": [
-        0.014399779960513115,
-        0.01439976692199707
-      ],
-      "type": "VEC2"
-    },
-    {
-      "bufferView": 0,
-      "byteOffset": 1728,
-      "componentType": 5125,
-      "count": 432,
-      "max": [
-        143
-      ],
-      "min": [
-        0
-      ],
-      "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "anji89 (https://sketchfab.com/anji89)",
+      "author": "ENEA LE FONS (https://sketchfab.com/enealefons)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/models/31a3f3bfe5654a59a3c230d6ad83a4ed",
-      "title": "circle_effect"
+      "source": "https://sketchfab.com/3d-models/uxrzone-circle-floor-nav-dd06c5ce07564734b2dadbbab0378484",
+      "title": "UXRZONE CIRCLE floor NAV"
     },
-    "generator": "Sketchfab-3.32.3",
+    "generator": "Sketchfab-10.59.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 3456,
-      "byteOffset": 0,
-      "name": "floatBufferViews",
-      "target": 34963
-    },
-    {
-      "buffer": 0,
-      "byteLength": 2304,
-      "byteOffset": 3456,
-      "byteStride": 8,
-      "name": "floatBufferViews",
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 6912,
-      "byteOffset": 5760,
+      "byteLength": 240072,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 4608,
-      "byteOffset": 12672,
+      "byteLength": 160048,
+      "byteOffset": 240072,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -204,75 +81,44 @@
   ],
   "buffers": [
     {
-      "byteLength": 17280,
+      "byteLength": 400120,
       "uri": "scene.bin"
-    }
-  ],
-  "images": [
-    {
-      "uri": "textures/circle_effect_material_baseColor.jpeg"
-    },
-    {
-      "uri": "textures/circle_effect_material_emissive.jpeg"
     }
   ],
   "materials": [
     {
-      "doubleSided": false,
+      "alphaMode": "BLEND",
+      "doubleSided": true,
       "emissiveFactor": [
-        1,
-        1,
-        1
+        0.0,
+        1.0,
+        1.0
       ],
-      "emissiveTexture": {
-        "index": 1,
-        "texCoord": 0
-      },
-      "name": "circle_effect_material",
+      "name": "Scene_-_Root",
       "pbrMetallicRoughness": {
         "baseColorFactor": [
-          1,
-          1,
-          1,
-          1
+          1.0,
+          1.0,
+          1.0,
+          0.7799722136086435
         ],
-        "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
-        },
-        "metallicFactor": 0,
-        "roughnessFactor": 0
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
       }
     }
   ],
   "meshes": [
     {
+      "name": "Object_0",
       "primitives": [
         {
           "attributes": {
+            "COLOR_0": 2,
             "NORMAL": 1,
-            "POSITION": 0,
-            "TANGENT": 2,
-            "TEXCOORD_0": 3
+            "POSITION": 0
           },
-          "indices": 4,
           "material": 0,
-          "mode": 4
-        }
-      ]
-    },
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "NORMAL": 6,
-            "POSITION": 5,
-            "TANGENT": 7,
-            "TEXCOORD_0": 8
-          },
-          "indices": 9,
-          "material": 0,
-          "mode": 4
+          "mode": 0
         }
       ]
     }
@@ -282,128 +128,44 @@
       "children": [
         1
       ],
-      "name": "RootNode (gltf orientation matrix)",
-      "rotation": [
-        -0.70710678118654746,
-        -0,
-        -0,
-        0.70710678118654757
-      ]
+      "matrix": [
+        0.09919046610593796,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.09919046610593796,
+        -4.4049415717645405e-17,
+        0.0,
+        0.0,
+        4.4049415717645405e-17,
+        -0.09919046610593796,
+        0.0,
+        0.0,
+        -0.0004060864448547362,
+        -0.0004121661186218263,
+        1.0
+      ],
+      "name": "Sketchfab_model"
     },
     {
       "children": [
         2
       ],
-      "name": "RootNode (model correction matrix)"
-    },
-    {
-      "children": [
-        3
-      ],
-      "name": "root"
-    },
-    {
-      "children": [
-        4
-      ],
-      "matrix": [
-        1,
-        0,
-        0,
-        0,
-        0,
-        2.2204460492503131e-16,
-        1,
-        0,
-        0,
-        -1,
-        2.2204460492503131e-16,
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
-      "name": "GLTF_SceneRootNode"
-    },
-    {
-      "children": [
-        5,
-        7
-      ],
-      "matrix": [
-        0,
-        0,
-        1.0000002384185791,
-        0,
-        0,
-        1,
-        0,
-        0,
-        -1.0000002384185791,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1
-      ],
-      "name": "circle_effect_2"
-    },
-    {
-      "children": [
-        6
-      ],
-      "name": "circle_effect01_3"
+      "name": "Geode"
     },
     {
       "mesh": 0,
-      "name": ""
-    },
-    {
-      "children": [
-        8
-      ],
-      "name": "circle_effect02_4"
-    },
-    {
-      "mesh": 1,
-      "name": ""
-    }
-  ],
-  "samplers": [
-    {
-      "magFilter": 9729,
-      "minFilter": 9729,
-      "wrapS": 10497,
-      "wrapT": 10497
-    },
-    {
-      "magFilter": 9729,
-      "minFilter": 9987,
-      "wrapS": 10497,
-      "wrapT": 10497
+      "name": "Object_2"
     }
   ],
   "scene": 0,
   "scenes": [
     {
-      "name": "OSG_Scene",
+      "name": "Sketchfab_Scene",
       "nodes": [
         0
       ]
     }
-  ],
-  "textures": [
-    {
-      "sampler": 0,
-      "source": 0
-    },
-    {
-      "sampler": 1,
-      "source": 1
-    }
   ]
 }
-
