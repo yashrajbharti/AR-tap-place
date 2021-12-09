@@ -21,9 +21,9 @@ const newElement = document.createElement('a-entity')
    newElement.setAttribute('material', 'side', 'double');
 
     place.appendChild(newElement)
-    // touchPoint.x  /= 1000;
-    // touchPoint.y  /= 1000;
-    // touchPoint.z  /= 10000;
+    touchPoint.x  /= 1000;
+    touchPoint.y  /= 1000;
+    touchPoint.z  /= 10000;
    newElement.setAttribute('position', touchPoint)
 
 
