@@ -17,11 +17,11 @@ const newElement = document.createElement('a-entity')
      radiusInner: 0.9,
      radiusOuter: 1
   });
-   newElement.setAttribute('material', 'color', 'red');
+   newElement.setAttribute('material', 'color', 'white');
    newElement.setAttribute('material', 'side', 'double');
 
     snaptarget.appendChild(newElement)
-   
+
 
    newElement.setAttribute('position', touchPoint)
 
