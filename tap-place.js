@@ -1,5 +1,5 @@
 const sceneEl = document.querySelector('a-scene');
-const faq = document.getElementById('faq')
+const place = document.getElementById('place')
 faq.addEventListener('click', (event) => {
 
 console.log("snap target clicked");
