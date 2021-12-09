@@ -24,10 +24,11 @@ const newElement = document.createElement('a-entity')
     touchPoint.x  /= 1000;
     touchPoint.y  /= 1000;
     touchPoint.z  /= 10000;
+    newElement.setAttribute('offset', '-0.4 0 -0.1')
+
    newElement.setAttribute('position', touchPoint)
 
 
-  //  newElement.setAttribute('offset', '-455 -401 2975')
 
  newElement.addEventListener('model-loaded', () => {
  newElement.setAttribute('visible', 'true')
