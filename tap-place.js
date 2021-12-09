@@ -21,7 +21,7 @@ const newElement = document.createElement('a-entity')
    newElement.setAttribute('material', 'side', 'double');
 
     snaptarget.appendChild(newElement)
-   newElement.setAttribute('position', '0.20 0.09 0')
+   newElement.setAttribute('position', touchPoint)
   //  newElement.setAttribute('offset', '-455 -401 2975')
 
  newElement.addEventListener('model-loaded', () => {
