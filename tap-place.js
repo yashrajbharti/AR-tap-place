@@ -21,10 +21,11 @@ const newElement = document.createElement('a-entity')
    newElement.setAttribute('material', 'side', 'double');
 
     snaptarget.appendChild(newElement)
+    touchPoint.x  /= 1000;
+    touchPoint.y  /= 1000;
+    touchPoint.z  /= 10000;
    newElement.setAttribute('position', touchPoint)
-   newElement.object3D.position.x /= 1000;
-   newElement.object3D.position.y /= 1000;
-   newElement.object3D.position.z /= 10000;
+
 
   //  newElement.setAttribute('offset', '-455 -401 2975')
 
