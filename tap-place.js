@@ -11,10 +11,10 @@ const newElement = document.createElement('a-entity')
  newElement.setAttribute('position', touchPoint)
  newElement.setAttribute('visible', 'false')
  newElement.setAttribute('scale', '0.1 0.1 0.1')
- newElement.setAttribute('rotate', '90 90 90')
+ newElement.setAttribute('rotate', '45 0 30')
  newElement.setAttribute('gltf-model', '#ring')
  snaptarget.appendChild(newElement)
- newElement.setAttribute('position', '0 -0.1 0')
+ newElement.setAttribute('position', '0 -0.1 0.5')
 //  newElement.setAttribute('offset', '-455 -401 2975')
 
  newElement.addEventListener('model-loaded', () => {
