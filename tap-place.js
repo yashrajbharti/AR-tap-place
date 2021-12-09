@@ -23,12 +23,12 @@ const newElement = document.createElement('a-entity')
     place.appendChild(newElement)
     touchPoint.x  /= 1000;
     touchPoint.y  /= 1000;
-    touchPoint.z  /= 10000;
+    touchPoint.z  /= 20000;
    newElement.setAttribute('position', touchPoint)
 
 
 
- newElement.addEventListener('model-loaded', () => {
- newElement.setAttribute('visible', 'true')
-})
+//  newElement.addEventListener('model-loaded', () => {
+//  newElement.setAttribute('visible', 'true')
+// })
 });
