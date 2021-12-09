@@ -22,6 +22,10 @@ const newElement = document.createElement('a-entity')
 
     snaptarget.appendChild(newElement)
    newElement.setAttribute('position', touchPoint)
+   newElement.object3D.position.x /= 1000;
+   newElement.object3D.position.y /= 1000;
+   newElement.object3D.position.z /= 10000;
+
   //  newElement.setAttribute('offset', '-455 -401 2975')
 
  newElement.addEventListener('model-loaded', () => {
