@@ -10,7 +10,7 @@ const newElement = document.createElement('a-entity')
  console.log(touchPoint);
    newElement.setAttribute('position', touchPoint)
    newElement.setAttribute('visible', 'true')
-   newElement.setAttribute('scale', '0.09 0.09 0.09')
+   newElement.setAttribute('scale', '0.03 0.03 0.03')
    newElement.setAttribute('rotate', '0 0 0')
    newElement.setAttribute('geometry', {
      primitive: 'ring',
